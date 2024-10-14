@@ -118,6 +118,7 @@ astyle
 asuka
 asymptote
 asyncapi
+asyncplusplus
 at-spi2-core
 atlantis
 atlas
@@ -197,6 +198,7 @@ bc-gh
 bcoin
 bcpp
 bde
+bdftopcf
 bdw-gc
 beagle
 beakerlib
@@ -603,6 +605,7 @@ delve
 demumble
 deno
 dep-tree
+dependabot
 dependency-check
 deployer
 der-ascii
@@ -1211,6 +1214,7 @@ hof
 homebank
 hopenpgp-tools
 hoverfly
+howard-hinnant-date
 hpack
 hpp-fcl
 htmldoc
@@ -1357,6 +1361,7 @@ juju
 julia
 jupyterlab
 just
+jxl-oxide
 jython
 k2tf
 k3d
@@ -1495,6 +1500,7 @@ libarchive
 libass
 libassuan
 libavif
+libblastrampoline
 libbpf
 libbsd
 libcap
@@ -1597,6 +1603,7 @@ libsail
 libsais
 libscfg
 libsecret
+libserialport
 libshumate
 libslirp
 libsndfile
@@ -2351,6 +2358,7 @@ rebar3
 recode
 recoverpy
 redict
+redress
 redwax-tool
 regclient
 regina-rexx
@@ -2370,6 +2378,7 @@ resvg
 retire
 revive
 rgbds
+rhash
 rhit
 riemann
 riemann-client
@@ -2965,6 +2974,7 @@ wavpack
 wayland
 wayland-protocols
 wazero
+wcslib
 wcurl
 weasyprint
 web-ext
@@ -3037,6 +3047,7 @@ xroar
 xrootd
 xsimd
 xterm
+xtrans
 xwin
 xxhash
 xz
@@ -3067,6 +3078,7 @@ yq
 yt-dlp
 yubico-piv-tool
 yyjson
+z.lua
 z3
 zabbix
 zabbix-cli

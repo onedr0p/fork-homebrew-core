@@ -3,17 +3,17 @@ class SphinxDoc < Formula
 
   desc "Tool to create intelligent and beautiful documentation"
   homepage "https://www.sphinx-doc.org/"
-  url "https://files.pythonhosted.org/packages/ca/ff/60f166ff66cce657ef6275f013c9555a9a814a80e0a8e86707ac5fdbf247/sphinx-8.1.1.tar.gz"
-  sha256 "65e0ee8f76c9cbfd53ec8466ac8c87a73f9ed911767a8ef36c3bf3c522242bcd"
+  url "https://files.pythonhosted.org/packages/6f/6d/be0b61178fe2cdcb67e2a92fc9ebb488e3c51c4f74a36a7824c0adf23425/sphinx-8.1.3.tar.gz"
+  sha256 "43c1911eecb0d3e161ad78611bc905d1ad0e523e4ddc202a58a821773dc4c927"
   license "BSD-2-Clause"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "60396701995a2f7c62005beebb49748569fd6fb7b49b13c14d7f5867450239c9"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "9b43bc09eaee5fae74f15dd2f72e2a6fe3f85af73f7d4b606d51d9ba8c1567c8"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "94b133655f2c7344b9a0ac9a8b773453e6d79834bab74c364b218b687ca66ad0"
-    sha256 cellar: :any_skip_relocation, sonoma:        "2751a0c88f22c9313976af105df610cf93020334f990f36f7280de24554bf746"
-    sha256 cellar: :any_skip_relocation, ventura:       "71204763469381fff3b8e232c01f84d3e4f40faea7afc4bcc5252fad57b1a8c3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "2c70c06fe8520010193e6fd6be6e13a1c826998a626a25596e3d3bfda2b883a9"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "7e0ff06a34a74b13cc0291812a7e45157888e2cc5c547d3c4307dee5d52e4f17"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "ab27c408493584094f40b2b5f0e3ef66096b28fb8c17d3cb1e0504e205049039"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "f5e6b4345bd268e098eaaf635821948f1041bc2c5a78c6d9bf9cbaad3c92d004"
+    sha256 cellar: :any_skip_relocation, sonoma:        "9ceedef9319dd5b552b8dd9d48d8969446594c4124caef9482916fa89eb8606e"
+    sha256 cellar: :any_skip_relocation, ventura:       "17389f948acc688d6d962144c01970ce6882885bffc948817fca1fc1eb787514"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6b15555c672c5e92de778122554a39b645d0e1b3d6f7df36c92dd8b46828296b"
   end
 
   keg_only <<~EOS

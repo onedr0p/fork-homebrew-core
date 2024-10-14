@@ -3,18 +3,18 @@ class Remarshal < Formula
 
   desc "Convert between TOML, YAML and JSON"
   homepage "https://github.com/remarshal-project/remarshal"
-  url "https://files.pythonhosted.org/packages/c4/09/ff97012e43f58c68357e1193281e0eb15af09a0fc81900c6a1f53534c98b/remarshal-0.19.0.tar.gz"
-  sha256 "43e42438730bd20c288d82b86f432d2b79c3c250c27cad23064572571563c691"
+  url "https://files.pythonhosted.org/packages/1d/86/ce916a9bfab4de5e5158d99d6441dae7605419b04e56647354c777b8dcc9/remarshal-0.20.0.tar.gz"
+  sha256 "5b73eaa5b0d8ed7d7b2eab3718e532059f7af1586990a17b65413ff926d2e5bf"
   license "MIT"
   head "https://github.com/remarshal-project/remarshal.git", branch: "master"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "aad26df98c11855d7fd34962ead953729f6c48fe54247f157f843b6f352cdfc6"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "aff9b294c3997c01fb763726dc64e46bbc39fbceadb997fbd861ac2d6d0d5950"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "f27c4ce3b9413e33e6a6fb5bd7550e581daa36d5f61ae8133ab6004bdc7d503c"
-    sha256 cellar: :any_skip_relocation, sonoma:        "b5118ea65942e98951ca7ca2b4af689294ed1ce12ea62ce1dc8c2ee5ddb6bbf1"
-    sha256 cellar: :any_skip_relocation, ventura:       "b22c964fcce971797b3401eccd136a3ee77f3275b33c05890176bcddc57a2b90"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "cfb2479f79030845e618efca913f945ef8bc4518cdc4fd2c843b635d50efe427"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "b5210d8cd03a65d2de31d13f4f6fbcb45a8de5d46ecc24acb29dcc8612af7297"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "4f93163b8945300da02e74230a55c7f03de416a61beac625d4205fed76ef4f45"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "81aceb65012dbcf83a1cfbfff3e51381acdaa36e0a127faa02541d20240c640a"
+    sha256 cellar: :any_skip_relocation, sonoma:        "81085cb768f033ea99338c16d4bd705d6b126885079766371d712fbc7179d90f"
+    sha256 cellar: :any_skip_relocation, ventura:       "4ea3ef06611a40eaf7835263d6572eb88561121cadb95ee14e632216e62b02ea"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "9605c3fdf3be441ca4103ebb8972dada0982bf4265a202824e58c6e9ab596b3f"
   end
 
   depends_on "libyaml"
